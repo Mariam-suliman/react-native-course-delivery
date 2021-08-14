@@ -1,0 +1,45 @@
+import { StyleSheet } from "react-native";
+
+export default StyleSheet.create({
+    header:
+    {
+        backgroundColor:'white',
+        borderBottomWidth:1,
+        borderBottomColor:'#E7E7E7',
+    },
+    headerText:
+    {
+        color:'black',
+        fontSize:24,
+    },
+    describtion:
+    {
+        color:"#656565",
+        fontSize:18,
+    },
+    contentContainer:
+    {
+        paddingHorizontal:16,
+        paddingTop:12,
+    },
+    btn:
+    {
+        marginTop:16,
+        alignSelf:'center',
+        paddingVertical:10,
+        paddingHorizontal:16,
+        borderRadius:8,
+        backgroundColor:'teal',
+    },
+    btnText:
+    {
+        color:'white',
+    },
+    row:
+    {
+        flexDirection:'row',
+        alignItems:'center',
+        justifyContent:'space-around',
+        marginBottom:16,
+    }
+})
